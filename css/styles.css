@@ -12,7 +12,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--SLATE);
 }
-
+.main-navigation-container {
+  display: inline-flex;
+}
 .logo {
   text-transform: uppercase;
   color: var(--IRIS);
