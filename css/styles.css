@@ -12,9 +12,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--SLATE);
 }
-.main-navigation-container {
-  display: inline-flex;
-}
 .logo {
   text-transform: uppercase;
   color: var(--IRIS);
@@ -23,6 +20,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 
 .logo-span-dark-header {
@@ -39,6 +37,8 @@ body {
 
 .navigation-list {
   list-style-type: none;
+  display: flex;
+  gap: 40px;
 }
 
 .nav-link {
@@ -47,6 +47,8 @@ body {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-link:hover,
@@ -60,6 +62,8 @@ body {
 
 .address-list {
   list-style-type: none;
+  display: flex;
+  gap: 40px;
 }
 
 .address-link {
@@ -237,4 +241,18 @@ body {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
+}
+.main-header-container {
+  border-bottom: 1px solid #e7e9fc;
+}
+.div-header-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.main-navigation-container {
+  display: flex;
+  align-items: center;
 }
