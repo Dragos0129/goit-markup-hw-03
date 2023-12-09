@@ -82,6 +82,8 @@ body {
 
 .hero-image-section-container {
   background-color: var(--NAVY-BLUE);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-image-header {
@@ -91,6 +93,7 @@ body {
   font-weight: 700;
   line-height: 107.143%;
   letter-spacing: 1.12px;
+  max-width: 496px;
 }
 
 .hero-image-button {
@@ -102,6 +105,11 @@ body {
   letter-spacing: 0.64px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-image-button:hover,
@@ -255,4 +263,6 @@ body {
 .main-navigation-container {
   display: flex;
   align-items: center;
+}
+.div-main-container {
 }
