@@ -226,6 +226,10 @@ body {
 
 .sec-one-list-of-buttons {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .sec-one-button {
@@ -238,20 +242,29 @@ body {
   text-align: center;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .sec-one-button:hover,
 .sec-one-button:focus {
   background-color: var(--OCEAN);
   color: var(--WHITE);
+  border: 1px solid transparent;
 }
 
 .list-of-projects-sec-two {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .project-container {
   background-color: var(--WHITE, #fff);
+  width: calc((100% - 48px) / 3);
 }
 
 .project-header {
@@ -320,6 +333,7 @@ body {
 .sec-two-container-li {
   width: calc((100% - 48px) / 3);
 }
-.container2 {
-  padding: 32px 0;
+.section-one-container {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
