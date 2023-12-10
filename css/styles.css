@@ -273,6 +273,7 @@ body {
   line-height: 120%;
   letter-spacing: 0.4px;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 
 .project-description {
