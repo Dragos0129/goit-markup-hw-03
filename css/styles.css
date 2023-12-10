@@ -21,6 +21,8 @@ body {
   letter-spacing: 0.54px;
   font-family: "Raleway", sans-serif;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-span-dark-header {
@@ -156,6 +158,8 @@ body {
 
 .section-three-container {
   background-color: var(--CLOUD, #f4f4fd);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-three-header {
@@ -166,14 +170,19 @@ body {
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .sec-three-members-list {
   list-style-type: none;
+  display: flex;
+  gap: 24px;
 }
 
 .team-member-container {
   background-color: var(--WHITE, #fff);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px 4px;
 }
 
 .team-member-header {
@@ -183,6 +192,8 @@ body {
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-member-description {
@@ -191,10 +202,13 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.32px;
+  text-align: center;
 }
 
 .footer-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-span-dark-footer {
@@ -206,6 +220,7 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.32px;
+  max-width: 264px;
 }
 
 .sec-one-list-of-buttons {
