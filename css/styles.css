@@ -21,13 +21,12 @@ body {
   letter-spacing: 0.54px;
   font-family: "Raleway", sans-serif;
   margin-right: 76px;
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-span-dark-header {
   color: var(--NAVY-BLUE);
-  display: inline-block;
 }
 
 .link {
@@ -186,8 +185,7 @@ body {
   border-top-right-radius: 0px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  width: calc((100% - 72px) / 4);
-}
+  flex-basis: calc((100%-72px ) / 4);
 
 .team-member-header {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -267,7 +265,7 @@ body {
 
 .project-container {
   background-color: var(--WHITE, #fff);
-  width: calc((100%-48px) / 3);
+  flex-basis: calc((100%-48px ) / 3);
 }
 
 .project-header {
@@ -339,8 +337,8 @@ body {
   padding-bottom: 32px;
 }
 .sec-two-container-li {
-  width: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .trait-container {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100%-72px) / 4);
 }
