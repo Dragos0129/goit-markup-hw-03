@@ -119,6 +119,8 @@ body {
 
 .first-section-list {
   list-style-type: none;
+  display: flex;
+  gap: 24px;
 }
 
 .trait-header {
@@ -127,6 +129,7 @@ body {
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .trait-description {
@@ -265,4 +268,30 @@ body {
   align-items: center;
 }
 .div-main-container {
+}
+.image {
+  display: block;
+}
+.hero-image-section-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.first-section-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.trait-container {
+  width: calc((100% - 72px) / 4);
 }
