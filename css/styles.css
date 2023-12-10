@@ -182,7 +182,7 @@ body {
 
 .team-member-container {
   background-color: var(--WHITE, #fff);
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px 4px;
 }
 
@@ -264,7 +264,7 @@ body {
 
 .project-container {
   background-color: var(--WHITE, #fff);
-  width: calc((100% - 48px) / 3);
+  width: calc((100%-48px) / 3);
 }
 
 .project-header {
@@ -321,7 +321,7 @@ body {
   overflow: hidden;
 }
 .trait-container {
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px) / 4);
 }
 .section-two-container {
   padding-bottom: 120px;
@@ -331,7 +331,7 @@ body {
   gap: 24px;
 }
 .sec-two-container-li {
-  width: calc((100% - 48px) / 3);
+  width: calc((100%-48px) / 3);
 }
 .section-one-container {
   padding-top: 96px;
