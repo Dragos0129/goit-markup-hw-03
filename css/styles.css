@@ -147,6 +147,7 @@ body {
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .sec-two-image-list {
@@ -256,7 +257,7 @@ body {
 .main-header-container {
   border-bottom: 1px solid #e7e9fc;
 }
-.container-section-two {
+.container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -266,8 +267,6 @@ body {
 .main-navigation-container {
   display: flex;
   align-items: center;
-}
-.container-section-one {
 }
 .image {
   display: block;
@@ -294,4 +293,14 @@ body {
 }
 .trait-container {
   width: calc((100% - 72px) / 4);
+}
+.section-two-container {
+  padding-bottom: 120px;
+}
+.sec-two-image-list {
+  display: flex;
+  gap: 24px;
+}
+.sec-two-container-li {
+  width: calc((100% - 48px) / 3);
 }
