@@ -256,7 +256,7 @@ body {
 .main-header-container {
   border-bottom: 1px solid #e7e9fc;
 }
-.div-header-container {
+.container-section-two {
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -267,7 +267,7 @@ body {
   display: flex;
   align-items: center;
 }
-.div-main-container {
+.container-section-one {
 }
 .image {
   display: block;
