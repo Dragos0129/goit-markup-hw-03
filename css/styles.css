@@ -182,7 +182,8 @@ body {
 .team-member-container {
   background-color: var(--WHITE, #fff);
   border-radius: 0px 4px 4px 4px;
-  flex-basis: calc((100%-72px) / 4);
+  width: 100%;
+  min-width: 264px;
 }
 
 .team-member-header {
@@ -263,7 +264,7 @@ body {
 
 .project-container {
   background-color: var(--WHITE, #fff);
-  flex-basis: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .project-header {
