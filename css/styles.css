@@ -22,11 +22,11 @@ body {
   font-family: "Raleway", sans-serif;
   margin-right: 76px;
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .logo-span-dark-header {
   color: var(--NAVY-BLUE);
+  display: inline-block;
 }
 
 .link {
