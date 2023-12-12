@@ -116,17 +116,19 @@ body {
 .hero-image-button {
   background: var(--IRIS, #4d5ae5);
   color: var(--WHITE, #fff);
+  font-family: "Roboto", sans-serif;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
-  border-radius: 4px;
+  margin: auto;
 }
 
 .hero-image-button:hover,
@@ -323,8 +325,12 @@ body {
 .main-header-container {
   border-bottom: 1px solid #e7e9fc;
 }
-.container {
+.another-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
