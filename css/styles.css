@@ -15,7 +15,19 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--SLATE);
 }
-.logo {
+.logo-a {
+  text-transform: uppercase;
+  color: var(--IRIS);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  font-family: "Raleway", sans-serif;
+  margin-right: 76px;
+  margin-bottom: 16px;
+  flex-shrink: 0;
+}
+.logo-b {
   text-transform: uppercase;
   color: var(--IRIS);
   font-weight: 800;
@@ -28,7 +40,6 @@ body {
   display: inline-block;
   flex-shrink: 0;
 }
-
 .logo-span-dark-header {
   color: var(--NAVY-BLUE);
 }
