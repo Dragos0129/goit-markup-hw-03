@@ -323,10 +323,10 @@ body {
   letter-spacing: 0.32px;
 }
 .main-header-container {
+  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 .another-container {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
