@@ -111,6 +111,8 @@ body {
   line-height: 107.143%;
   letter-spacing: 1.12px;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-image-button {
@@ -128,7 +130,7 @@ body {
   min-width: 169px;
   height: 56px;
   border: none;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .hero-image-button:hover,
